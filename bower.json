@@ -1,0 +1,29 @@
+{
+  "name": "react-study-app",
+  "description": "A basic app using Facebook's React to study",
+  "main": "server.js",
+  "authors": [
+    "Davi Alves"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/flyingkrai/react-study-app",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
