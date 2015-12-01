@@ -4,7 +4,7 @@
   "description": "A basic app using Facebook's React to study",
   "main": "server.js",
   "scripts": {
-    "watch": "webpack -w",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,8 +27,10 @@
     "react-router": "^1.0.0"
   },
   "devDependencies": {
-    "babel-core": "^5.8.30",
-    "babel-loader": "^5.3.2",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
     "webpack": "^1.12.9"
   }
 }

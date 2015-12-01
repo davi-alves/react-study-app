@@ -1,14 +1,21 @@
 module.exports = {
-  entry: './app/App.js',
+  entry: './main.js',
   output: {
-    filename: 'public/bundle.js'
+    filename: './index.js'
+  },
+  devServer: {
+    inline: true,
+    port: 3001
   },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel'
+        loader: 'babel',
+        query: {
+          presets: ['es2015', 'react']
+        }
       }
     ]
   }
